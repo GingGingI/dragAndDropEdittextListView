@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item"
+    android:layout_width="match_parent"
+    android:minHeight="?listPreferredItemHeightLarge"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?selectableItemBackground">
+
+    <EditText
+        android:id="@+id/edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+    <ImageView
+        android:id="@+id/dragBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:scaleType="center"
+        android:src="@drawable/ic_drag_handle_black_24dp"/>
+
+</FrameLayout>

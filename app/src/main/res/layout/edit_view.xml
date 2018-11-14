@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:background="#a8a8a8">
+
+    <Button
+        android:id="@+id/AddBtn"
+        android:layout_alignParentBottom="true"
+        android:text="Add"
+        android:layout_width="match_parent"
+        android:layout_height="?listPreferredItemHeight" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/editrecycle"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</RelativeLayout>

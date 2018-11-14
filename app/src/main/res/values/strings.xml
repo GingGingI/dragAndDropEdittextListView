@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">dragAndDropEdittextListView</string>
+
+    <array name="Main_items">
+        <item> 리스트 </item>
+        <item> 그리드 </item>
+        <item> 에딧 </item>
+    </array>
+
+    <array name="dummy_items">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>Four</item>
+        <item>Five</item>
+        <item>Six</item>
+        <item>Seven</item>
+        <item>Eight</item>
+        <item>Nine</item>
+        <item>Ten</item>
+    </array>
+
+    <array name="dummy_items_edit">
+        <item>Hi</item>
+        <item>Im dummy!</item>
+    </array>
+
+</resources>
