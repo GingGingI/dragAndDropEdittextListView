@@ -1,7 +1,6 @@
 package gingdev.draganddropedittextlistview.Fragment;
 
 import android.app.Activity;
-import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ListFragment;
@@ -11,7 +10,7 @@ import android.widget.ListView;
 
 import gingdev.draganddropedittextlistview.R;
 
-public class MainListFragment extends ListFragment{
+public class MainListFragment extends ListFragment {
 
     private OnListItemClickListener itemClickListener;
 
@@ -44,3 +43,4 @@ public class MainListFragment extends ListFragment{
         void onListItemClicked(int position);
     }
 }
+

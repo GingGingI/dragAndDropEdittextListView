@@ -18,9 +18,6 @@ import gingdev.draganddropedittextlistview.TouchHelper.onStartDragListener;
 public class RecyclerGridFragment extends Fragment implements onStartDragListener {
 
     private ItemTouchHelper itHelper;
-
-    public RecyclerGridFragment(){}
-
 //    Contianer를 Recycler로 지정.
     @Nullable
     @Override

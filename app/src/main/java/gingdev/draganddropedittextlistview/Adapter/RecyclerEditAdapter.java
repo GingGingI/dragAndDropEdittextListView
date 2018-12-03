@@ -95,6 +95,6 @@ public class RecyclerEditAdapter extends RecyclerView.Adapter<EditItemViewHolder
 
     public void AddView() {
         mItem.add("");
-        notifyItemInserted(mItem.size());
+        notifyItemInserted(mItem.size() - 1);
     }
 }

@@ -32,7 +32,6 @@ public class RecyclerListFragment extends Fragment implements onStartDragListene
         RecyclerListAdapter adapter = new RecyclerListAdapter(getActivity(), this);
 //        RecyclerView설정.
         RecyclerView rc = (RecyclerView) view;
-        rc.setHasFixedSize(true);
         rc.setAdapter(adapter);
         rc.setLayoutManager(new LinearLayoutManager(getActivity()));
 //        ItemTouchHelper 지정.

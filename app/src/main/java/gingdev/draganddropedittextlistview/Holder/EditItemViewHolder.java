@@ -28,5 +28,4 @@ public class EditItemViewHolder  extends RecyclerView.ViewHolder implements Item
     public void onItemClear() {
         itemView.setBackgroundColor(0);
     }
-
 }

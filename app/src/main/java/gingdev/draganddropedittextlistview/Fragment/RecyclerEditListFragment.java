@@ -44,7 +44,6 @@ public class RecyclerEditListFragment extends Fragment implements onStartDragLis
         RecyclerView rc = (RecyclerView) view.findViewById(R.id.editrecycle);
         AddBtn = (Button) view.findViewById(R.id.AddBtn);
         AddBtn.setOnClickListener(this);
-        rc.setHasFixedSize(true);
         rc.setAdapter(adapter);
         rc.setLayoutManager(new LinearLayoutManager(getActivity()));
 //        ItemTouchHelper 지정.
